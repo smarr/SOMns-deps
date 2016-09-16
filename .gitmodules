@@ -1,0 +1,9 @@
+[submodule "coveralls-truffle"]
+	path = coveralls-truffle
+	url = https://github.com/smarr/CoverallsTruffle.git
+[submodule "minimal-json"]
+	path = minimal-json
+	url = https://github.com/smarr/minimal-json.git
+[submodule "websocket"]
+	path = websocket
+	url = https://github.com/smarr/Java-WebSocket.git
