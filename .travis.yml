@@ -1,0 +1,11 @@
+language: java
+jdk:
+- oraclejdk8
+sudo: false
+env:
+  global:
+    secure: H01ZaqjMF0lXGCYx3qEPEqd9ZEoyl39z3i57QS1wVOuNOvvrm+nkB9Vupf/4EsFsynZn73ObESk360LtgOWK/ko+1zvDyo4eNzUa7ERPpZidau+LQ3aCm7nI1aZLofkXFTLXHEn2S+tLL6yEPdVkFFX5vMxGiQaVuD+GKbXJ5352wJW+q+E/qrz01ExMwP0l3jjZfkixELJmLn7Vd5CpvKILEQePuPdvNF1pwx40B3F6j8+49mL03tfN2ncbP/0bjQYFj2Ug/BndKGbmbPnVnTHlhlUHVSOwKuE9F6kXl5QK/x2LWoB/AmIVy88O1AC16XVXyT87//eltDrS/M2SkX6jQgwz3+2wxQv7n71rU1R8XvuQHZa+IbOhUoR67le/OlRGwHofB1cttBj06UxW9377buCExULoqZw5ttj+4XI3X60fcK00xEw59bp5AXm3ZhB9np8lJxz1IaSmhX2Wl5PVg68vtpA7ycZ1kpOmGHErber1p+WsG+vN1kQ5PSHTo+Lmn0C6lyeZ/5SJ3Iw8sIScyL0GNJ9Mc3aw7xnTwfSE81XkjpeTQcW23yWYkiytL2o/jitoGjPtZ2kr+pelM67Rbp22Ydyf9xSG82CcxUNNPeu/H1I/TYwlliZivHt9JIn4VyYSrv+w0dPNMNor17S4DNso8Ndoc5RdX8G2t2g=
+script:
+  - ./build.sh
+after_success:
+  - ./upload.sh
