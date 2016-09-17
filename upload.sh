@@ -9,3 +9,7 @@ curl -H "X-Bintray-Override: 1" -H "X-Bintray-Publish: 1" \
   -T somns-deps.jar \
   -usmarr:$BINTRAY_API_KEY \
   https://api.bintray.com/content/smarr/SOM/SOMns-deps/$VERSION/somns-deps.jar
+curl -H "X-Bintray-Override: 1" -H "X-Bintray-Publish: 1" \
+  -T somns-deps-dev.jar \
+  -usmarr:$BINTRAY_API_KEY \
+  https://api.bintray.com/content/smarr/SOM/SOMns-deps/$VERSION/somns-deps-dev.jar
