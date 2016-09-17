@@ -1,4 +1,11 @@
 #!/bin/bash
 VERSION=`cat .version`
-curl -T somns-deps-source.jar -usmarr:$BINTRAY_API_KEY https://api.bintray.com/content/smarr/SOM/SOMns-deps/$VERSION/somns-deps-source.jar?publish=1
-curl -T somns-deps.jar -usmarr:$BINTRAY_API_KEY https://api.bintray.com/content/smarr/SOM/SOMns-deps/$VERSION/somns-deps.jar?publish=1
+BINTRAY_API_KEY=c0aa8fadc8f18afaa833761be21bea0f570bc0b0
+curl -H "X-Bintray-Override: 1" -H "X-Bintray-Publish: 1" \
+  -T somns-deps-source.jar \
+  -usmarr:$BINTRAY_API_KEY \
+  https://api.bintray.com/content/smarr/SOM/SOMns-deps/$VERSION/somns-deps-source.jar
+curl -H "X-Bintray-Override: 1" -H "X-Bintray-Publish: 1" \
+  -T somns-deps.jar \
+  -usmarr:$BINTRAY_API_KEY \
+  https://api.bintray.com/content/smarr/SOM/SOMns-deps/$VERSION/somns-deps.jar
