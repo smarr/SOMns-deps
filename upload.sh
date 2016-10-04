@@ -1,6 +1,8 @@
 #!/bin/bash
 VERSION=`cat .version`
-BINTRAY_API_KEY=c0aa8fadc8f18afaa833761be21bea0f570bc0b0
+if [ -z "$BINTRAY_API_KEY" ]; then
+  echo "Bintray API Key not available, please set BINTRAY_API_KEY"
+fi
 curl -H "X-Bintray-Override: 1" -H "X-Bintray-Publish: 1" \
   -T somns-deps-source.jar \
   -usmarr:$BINTRAY_API_KEY \
