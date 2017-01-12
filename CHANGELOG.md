@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 
+ - updated CoverallsTruffle to allow accumulating coverage data
  - added change log
 
 ## [0.3.1] - 2016-11-24
