@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [0.3.3] - 2017-05-05
+
+ - updated WebSocket library
 
 ## [0.3.2] - 2017-01-12
 
