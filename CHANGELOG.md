@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.3.4] - 2018-08-29
+
+ - updated CoverallsTruffle to support Truffle 1.0.0-rc5
+
 ## [0.3.3] - 2017-05-05
 
  - updated WebSocket library
@@ -27,8 +31,10 @@
 
 Initial version for SOMns dependencies managed as single jar file.
 
-[Unreleased]: https://github.com/smarr/SOMns-deps/compare/dfd83368f6724154dda1957fb38d44d4fdce16df...HEAD
-[0.3.2]: https://github.com/smarr/SOMns-deps/compare/89756ed242d92138ee0bfa1c575f201d26d91bba...dfd83368f6724154dda1957fb38d44d4fdce16df
+[Unreleased]: https://github.com/smarr/SOMns-deps/compare/HEAD...HEAD
+[0.3.4]: https://github.com/smarr/SOMns-deps/compare/61ba07a9b5070d62033cb61a9f816b42b8e519cc...HEAD
+[0.3.3]: https://github.com/smarr/SOMns-deps/compare/3f67b878c2670f6c2e4e94ac37a20bb74c17b0f9...61ba07a9b5070d62033cb61a9f816b42b8e519cc
+[0.3.2]: https://github.com/smarr/SOMns-deps/compare/89756ed242d92138ee0bfa1c575f201d26d91bba...3f67b878c2670f6c2e4e94ac37a20bb74c17b0f9
 [0.3.1]: https://github.com/smarr/SOMns-deps/compare/5b07163970739ed4f5f2d1f733a80a65d1c123ae...89756ed242d92138ee0bfa1c575f201d26d91bba
 [0.3.0]: https://github.com/smarr/SOMns-deps/compare/92dae80c35b8d58c854c17306df2230752b9bd60...5b07163970739ed4f5f2d1f733a80a65d1c123ae
 [0.2.0]: https://github.com/smarr/SOMns-deps/compare/de81aa9f3aaacc02d8f80c2abaff199af81ce1e3...92dae80c35b8d58c854c17306df2230752b9bd60
