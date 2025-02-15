@@ -2,6 +2,7 @@
 VERSION=`cat .version`
 if [ -z "$BINTRAY_API_KEY" ]; then
   echo "Bintray API Key not available, please set BINTRAY_API_KEY"
+  exit 1
 fi
 curl -H "X-Bintray-Override: 1" -H "X-Bintray-Publish: 1" \
   -T somns-deps-source.jar \
